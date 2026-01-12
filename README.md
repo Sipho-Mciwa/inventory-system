@@ -47,6 +47,7 @@ Each layer has a single responsibility and depends only on layers **below** it.
 
 ## 📁 Project Structure
 
+```
 src/
 ├── domain/ # Core business rules
 │ ├── entities/ # Domain entities (e.g. Product)
@@ -78,7 +79,7 @@ tests/
 ├── domain/
 ├── application/
 └── infrastructure/
-
+```
 
 ---
 
